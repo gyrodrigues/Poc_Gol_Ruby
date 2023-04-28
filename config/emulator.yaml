@@ -1,0 +1,22 @@
+emulators:
+ Nexus:
+   caps:
+    deviceName: "Nexus"
+    platformName: "Android"
+    automationName: "uiautomator2"
+    app: "/Users/gustavoyam/Downloads/app-release.apk"
+    appPackage: "co.work.golapp"
+    appActivity: "co.work.golapp.MainActivity"
+    autoGrantPermissions: true
+
+#  iphone7:
+#   caps:
+#    deviceName: "iPhone 7"
+#    platformName: "iOS"
+#    platformVersion: "11.2"
+#    versionNumber: "30E00FF4-798B-4E51-85ED-3F5F87362441"  
+#    app: "/Users/gustavoyam/Downloads/exemplo_appium/WebViewApp"
+#    newCommandTimeout: "3600"
+#    automationName: "XCUITest"
+#    port: 4723
+#    appium_port: 4723

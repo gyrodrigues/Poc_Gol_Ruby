@@ -1,0 +1,2 @@
+ios: features/support -r features/ios -r features/step_definitions -t ~@nok --exclude features/android
+android: features/support -r features/android -r features/step_definitions -t ~@nok --exclude features/ios

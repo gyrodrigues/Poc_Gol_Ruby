@@ -1,0 +1,16 @@
+query"*"
+reinstall_apps
+start_test_server_in_background
+query"*"
+flash("* text:'Minha conta'")
+flash("* text:'Minha conta'")
+flash("* text:'Minha conta'")
+query("* text:'Minha conta'")
+flash("* text:'Minha conta'")
+flash("* text:'Minha conta'").click
+("* text:'Minha conta'").click
+query("* text:'Minha conta'").click
+touch("* text:'Minha conta'")
+touch
+touch("* text:'Minha conta'")
+exit
